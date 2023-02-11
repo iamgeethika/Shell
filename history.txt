@@ -1,0 +1,20 @@
+jobs -s
+sleep 100& sleep 200&
+jobs
+jobs -r
+sig 2 19
+jobs
+jobs -r
+jobs -s
+sleep 20& sleep 10&
+jobs
+cat < history.txt
+echo hdffadvadf o.txt
+echo nvdfjvdjkfv > o.txt
+echo nvkjdafnvkfd >> o.txt
+sort < o.txt > s.txt
+cat o.txt | wc
+cat history.txt | head -7 | tail -5
+cat < history.txt | wc -l > s.txt
+sleep 10& sleep 5& gedit &
+jobs
